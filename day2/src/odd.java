@@ -1,16 +1,10 @@
 import java.util.Scanner;
 
 public class odd {
-    int n;
-    int co=0;
-    int ce=0;
-    odd(int n)
+    static int co=0;
+    static int ce=0;
+    void check(int n)
     {
-        this.n=n;
-    }
-    void check()
-    {
-//        int ce=0,co=0;
         if(n%2!=0)
             co++;
         else
@@ -33,8 +27,10 @@ class number
         {
             System.out.println("Enter number");
             n= sc.nextInt();
-            odd num = new odd(n);
-            num.check();
+            odd num = new odd();
+            num.check(n);
         }
+        odd num = new odd();
+        num.display();
     }
 }

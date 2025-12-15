@@ -2,11 +2,11 @@ public class objcount {
     static int c=0;
     objcount()
     {
-        this.c++;
+        c++;
     }
     void display()
     {
-        System.out.println("total no of objects is " + this.c);
+        System.out.println("total no of objects is " + c);
     }
 }
 class obj{
