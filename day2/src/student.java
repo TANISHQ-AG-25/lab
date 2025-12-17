@@ -25,6 +25,7 @@ class Student {
         System.out.println("CGPA: " + lowest.cgpa);
     }
 }
+
 class Students {
     public static void main() {
         Scanner sc = new Scanner(System.in);
